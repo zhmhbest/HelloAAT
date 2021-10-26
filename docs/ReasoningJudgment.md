@@ -10,7 +10,7 @@
 ### 数量
 
 - 线条数：直线数、曲线数、射线数等数量。
-- 笔画数：需要几笔才能完成。
+- 笔画数：需要几笔才能完成，笔画之间不能重叠。
 - 封闭区域：图形、汉字、数字等的封闭区域。
 - 孤立区域：不连接的区域。
 - 交点个数：十字交点、一般交点（曲线交点）等。
@@ -42,6 +42,22 @@
 **例7**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/n-阴影数1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；阴影数“0 1 2”、“1 2 3”、“2 3 4”</span>
+
+**例8**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-笔画1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；图例均为一笔图形</span>
+
+**例9**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数3.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；合集为“曲 半曲 直”，线条为“3 5 4”</span>
+
+**例10**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-黑球数1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：C；第2行有一个2组合球，第3行有一个3组合球；组合球算一个单位，数量为“7 8 9”、“6 7 8”、“5 6 7”</span>
+
+**例11**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-独立部分1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；独立部分递增”</span>
 
 ### 移动
 
@@ -116,16 +132,22 @@
 ### 替换
 
 **例1**：替换
-<img style="max-width: 60%; max-height: 300px" src="images/graph/替换1.png"/>
+<img style="max-width: 60%; max-height: 300px" src="images/graph/r-替换1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；“1△=2□”，“3□ 5□ 7□ 9□ 11□”</span>
 
-### 其它
+**例2**：替换
+<img style="max-width: 60%; max-height: 300px" src="images/graph/r-替换2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；“1上=4下”，“10下 9下 8下 7下 6下”</span>
 
-**例1**：重组
+### 重组
+
+**例1**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/重组1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；2个黑点白色三角形排除AB，1个网格三角形排除D</span>
 
-**例3**：分类
+### 其它
+
+**例1**：分类
 <img style="max-width: 60%; max-height: 300px" src="images/graph/公共边1.png"/>
 
 - A：①④⑥、②③⑤
@@ -135,10 +157,10 @@
 
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；是否有公共边</span>
 
-**例4**：剪纸
+**例2**：剪纸
 <img style="max-width: 60%; max-height: 300px" src="images/graph/剪纸1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：D</span>
 
-**例5**：排序
+**例3**：排序
 <img style="max-width: 60%; max-height: 300px" src="images/graph/排序1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；前两行都在最左边，第三行R位置分布均匀</span>
