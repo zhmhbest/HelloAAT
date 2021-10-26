@@ -20,40 +20,88 @@
 - 图形种类数
 
 **例1**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/线条数1.png"/>
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；线条数，“3 7 4”、“3 8 5”</span>
 
 **例2**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/封闭区域1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D；封闭区域递增</span>
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；线条数，“6 1 4”、“6 1 4”</span>
 
 **例3**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/交点1.png"/>
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-封闭区域1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；封闭区域递增</span>
+
+**例4**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-交点1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；每行交点数量相同</span>
+
+**例5**：与其它不一样的图形
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-种类1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：第4个；“其它均为3个三角形 + 1个四边形”</span>
+
+**例6**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-特殊1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；直线数量/线头数量，“4/0 6/4 2/4”、“4/0 4/4 4/4”、“4/0 2/0 6/0”</span>
+
+### 旋转平移对称
+
+**例1**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；“2 = 1顺时针旋转90°后水平翻转”、“3 = 2顺时针旋转90°”</span>
+
+**例2**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；“三角每次顺时针选择一边”、“直角每次逆时针旋转90°”</span>
+
+**例3**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转3.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；每次逆时针旋转45°</span>
+
+**例4**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转4.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；</span>
+
+**例5**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转5.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；短线每次顺时针移动1格、长线每次顺时针移动4格</span>
+
+**例6**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转6.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；黑弧每次顺时针移动一格，黑球每次中心对称一次</span>
+
+**例7**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转7.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；其余均为顺时针</span>
+
+**例8**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-平移1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：C；“每次向上平移一格”</span>
+
+**例9**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-对称1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；“3 = 1垂直翻转 + 2”</span>
+
+### 覆盖
+
+**例1**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/c-覆盖1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：C；边少的覆盖边多的</span>
+
+**例2**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/c-覆盖2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；“面 点 面 点 面 点”</span>
 
 ### 其它情况
 
-**例1**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/覆盖1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：C；边少的覆盖边多的</span>
-
-**例2**：重组
+**例1**：重组
 <img style="max-width: 60%; max-height: 300px" src="images/graph/重组1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；2个黑点白色三角形排除AB，1个网格三角形排除D</span>
 
-**例3**：方形、三角形
+**例2**：替换
 <img style="max-width: 60%; max-height: 300px" src="images/graph/替换1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；“1△=2□”，“3□ 5□ 7□ 9□ 11□”</span>
 
-**例4**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/旋转1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：A；“2 = 1顺时针旋转90°后水平翻转”、“3 = 2顺时针旋转90°”</span>
-
-**例5**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/组合1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D；“3 = 1垂直翻转 + 2”</span>
-
-**例6**：
+**例3**：分类
 <img style="max-width: 60%; max-height: 300px" src="images/graph/公共边1.png"/>
 
 - A：①④⑥、②③⑤
@@ -63,38 +111,10 @@
 
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；是否有公共边</span>
 
-**例7**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/旋转2.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：A；“三角每次顺时针选择一边”、“直角每次逆时针旋转90°”</span>
-
-**例8**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/平移1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：C；“每次向上平移一格”</span>
-
-**例9**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/平移1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D；“面 点 面 点 面 点”</span>
-
-**例10**：
+**例4**：剪纸
 <img style="max-width: 60%; max-height: 300px" src="images/graph/剪纸1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：D</span>
 
-**例11**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/剪纸1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D</span>
-
-**例12**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/旋转3.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D；每次逆时针旋转45°</span>
-
-**例13**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/旋转4.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：B；</span>
-
-**例14**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/旋转5.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：B；短线每次顺时针移动1格、长线每次顺时针移动4格</span>
-
-**例15**：
+**例5**：排序
 <img style="max-width: 60%; max-height: 300px" src="images/graph/排序1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；前两行都在最左边，第三行R位置分布均匀</span>
