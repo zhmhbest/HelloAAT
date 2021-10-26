@@ -7,7 +7,7 @@
 
 ## 图形推理
 
-### 数量关系
+### 数量
 
 - 线条数：直线数、曲线数、射线数等数量。
 - 笔画数：需要几笔才能完成。
@@ -23,10 +23,6 @@
 <img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；线条数，“3 7 4”、“3 8 5”</span>
 
-**例2**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数2.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：B；线条数，“6 1 4”、“6 1 4”</span>
-
 **例3**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/n-封闭区域1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：D；封闭区域递增</span>
@@ -40,10 +36,18 @@
 <span style="color:black; background-color: black; font-family: 宋体">答案：第4个；“其它均为3个三角形 + 1个四边形”</span>
 
 **例6**：
-<img style="max-width: 60%; max-height: 300px" src="images/graph/n-特殊1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：B；直线数量/线头数量，“4/0 6/4 2/4”、“4/0 4/4 4/4”、“4/0 2/0 6/0”</span>
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-线条数2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：C；</span>
 
-### 旋转平移对称
+**例7**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-阴影数1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；阴影数“0 1 2”、“1 2 3”、“2 3 4”</span>
+
+### 移动
+
+- 旋转
+- 平移
+- 对称
 
 **例1**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转1.png"/>
@@ -81,6 +85,10 @@
 <img style="max-width: 60%; max-height: 300px" src="images/graph/m-对称1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：D；“3 = 1垂直翻转 + 2”</span>
 
+**例10**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/m-旋转8.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；“2黑点每次顺时针移动一格”、“4黑点交替以中间两个黑点为中心，每次顺时针旋转90°”</span>
+
 ### 覆盖
 
 **例1**：
@@ -91,15 +99,31 @@
 <img style="max-width: 60%; max-height: 300px" src="images/graph/c-覆盖2.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：D；“面 点 面 点 面 点”</span>
 
-### 其它情况
+### 消去
+
+**例1**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/c-消去1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；“3 = 1 + 2 - 12重叠部分”</span>
+
+**例2**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/c-消去2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D；“3 = 1 + 2 - 12重叠部分”</span>
+
+**例3**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/n-消去2.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：A；</span>
+
+### 替换
+
+**例1**：替换
+<img style="max-width: 60%; max-height: 300px" src="images/graph/替换1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：B；“1△=2□”，“3□ 5□ 7□ 9□ 11□”</span>
+
+### 其它
 
 **例1**：重组
 <img style="max-width: 60%; max-height: 300px" src="images/graph/重组1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；2个黑点白色三角形排除AB，1个网格三角形排除D</span>
-
-**例2**：替换
-<img style="max-width: 60%; max-height: 300px" src="images/graph/替换1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：B；“1△=2□”，“3□ 5□ 7□ 9□ 11□”</span>
 
 **例3**：分类
 <img style="max-width: 60%; max-height: 300px" src="images/graph/公共边1.png"/>
