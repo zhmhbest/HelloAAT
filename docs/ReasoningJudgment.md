@@ -131,11 +131,11 @@
 
 ### 替换
 
-**例1**：替换
+**例1**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/r-替换1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；“1△=2□”，“3□ 5□ 7□ 9□ 11□”</span>
 
-**例2**：替换
+**例2**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/r-替换2.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：A；“1上=4下”，“10下 9下 8下 7下 6下”</span>
 
@@ -144,6 +144,20 @@
 **例1**：
 <img style="max-width: 60%; max-height: 300px" src="images/graph/重组1.png"/>
 <span style="color:black; background-color: black; font-family: 宋体">答案：C；2个黑点白色三角形排除AB，1个网格三角形排除D</span>
+
+### 剪纸
+
+**例1**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/剪纸1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：D</span>
+
+### 空间
+
+<img style="max-width: 300px" alt="" src="images/box.png"/>
+
+**例1**：
+<img style="max-width: 60%; max-height: 300px" src="images/graph/s-空间1.png"/>
+<span style="color:black; background-color: black; font-family: 宋体">答案：C</span>
 
 ### 其它
 
@@ -156,10 +170,6 @@
 - D：①③⑤、②④⑥
 
 <span style="color:black; background-color: black; font-family: 宋体">答案：B；是否有公共边</span>
-
-**例2**：剪纸
-<img style="max-width: 60%; max-height: 300px" src="images/graph/剪纸1.png"/>
-<span style="color:black; background-color: black; font-family: 宋体">答案：D</span>
 
 **例3**：排序
 <img style="max-width: 60%; max-height: 300px" src="images/graph/排序1.png"/>
