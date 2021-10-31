@@ -5,7 +5,7 @@
 
 [TOC]
 
-## 增长率
+## 增长
 
 **同比**：**与上一年同一时期**相比。
 **环比**：**与上期**相比。
@@ -19,30 +19,26 @@
 - $a_j = a_i \cdot (1+\bar{x})^{j-i}$
 - $\bar{x} = \sqrt[j-i]{\dfrac{a_j}{a_i} - 1}$
 
-## 百分比增减
-
-**增加了$x\%$**：$\textnormal{\footnotesize 现在} = \textnormal{\footnotesize 过去} × (1 + x\%)$
-
-**减少了$x\%$**：$\textnormal{\footnotesize 现在} = \textnormal{\footnotesize 过去} × (1 - x\%)$
-
-## 贸易进出口
-
-- $\textnormal{\footnotesize 进出口总额} = \textnormal{\footnotesize 进口额} + \textnormal{\footnotesize 出口额}$
-- $\textnormal{\footnotesize 顺差额} = \textnormal{\footnotesize 出口额} - \textnormal{\footnotesize 进口额}$
-- $\textnormal{\footnotesize 逆差额} = \textnormal{\footnotesize 进口额} - \textnormal{\footnotesize 出口额}$
-
-## 人口增长
+### 人口增长
 
 - $\textnormal{\footnotesize 出生率} = \dfrac{\textnormal{\footnotesize 年出生人数}}{\textnormal{\footnotesize 年平均人数}}$
 - $\textnormal{\footnotesize 死亡率} = \dfrac{\textnormal{\footnotesize 年死亡人数}}{\textnormal{\footnotesize 年平均人数}}$
 - $\textnormal{\footnotesize 自然增长率} = \textnormal{\footnotesize 出生率} - \textnormal{\footnotesize 死亡率}$
 
-## 利率
+## 金融
+
+### 贸易
+
+- $\textnormal{\footnotesize 进出口总额} = \textnormal{\footnotesize 进口额} + \textnormal{\footnotesize 出口额}$
+- $\textnormal{\footnotesize 顺差额} = \textnormal{\footnotesize 出口额} - \textnormal{\footnotesize 进口额}$
+- $\textnormal{\footnotesize 逆差额} = \textnormal{\footnotesize 进口额} - \textnormal{\footnotesize 出口额}$
+
+### 利率
 
 - **单利**：$\textnormal{\footnotesize 利息和} = \textnormal{\footnotesize 本金} × \textnormal{\footnotesize 利率} × \textnormal{\footnotesize 年份}$
 - **复利**：$\textnormal{\footnotesize 利息和} = \textnormal{\footnotesize 本金} × (1 + \textnormal{\footnotesize 利率}) ^ \textnormal{\footnotesize 年份}$
 
-## 汇率
+### 汇率
 
 $\textnormal{\footnotesize 美元对人民币汇率} = \frac{USD}{CNY}$，即每$1$人民币可以换$\frac{USD}{CNY}$美元。
 

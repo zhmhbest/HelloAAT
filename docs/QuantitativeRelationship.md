@@ -20,7 +20,12 @@
 
 **例**：77个蛋糕，大盒能装15个，小盒能装8个，要求恰好装满，问需要几个盒子。
 
-$77 = 15x + 8y$，因为$77$为奇数、$8y$为偶数，所以$15x$一定为奇数，即$x$一定为奇数。$x$在$1,3,5$中尝试，得$x=3$，$y=4$，$x+y=7$。
+<div style="color:black; background-color: black; font-family: 宋体">
+
+$77 = 15x + 8y$，因为$77$为奇数、$8y$为偶数，
+所以$15x$一定为奇数，即$x$一定为奇数。
+$x$在$1,3,5$中尝试，得$x=3$，$y=4$，$x+y=7$。
+</div>
 
 ### 整除
 
@@ -80,9 +85,14 @@ $2011×2012~mod~6 = (2011~mod~6)×(2012~mod~6) = (1×2)~mod~6 = 2$
 
 **求解方法**：先求最大公因数、再将两边剩余因数相乘、最后乘以最大公因数。
 
-**例1**：求`24`与`36`的最小公倍数
+**例1**：求$24$与$36$的最小公倍数
 
-- `24 = 2 × 12`、`36 = 3 × 12`则`2 × 3 × 12 = 72`
+<div style="color:black; background-color: black; font-family: 宋体">
+
+$24 = 2 × 12$、$36 = 3 × 12$
+
+$2 × 3 × 12 = 72$
+</div>
 
 **例2**：已知$
     \begin{cases}
@@ -94,6 +104,8 @@ $，问$z=?$（变量全为整数）
 
 $A.12 ~~ B.15 ~~ C.20 ~~ D.25$
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $
     \begin{cases}
         (x_2 + y_2) = \dfrac{60 - z}{5}
@@ -102,6 +114,7 @@ $
 $
 
 即$(60-z)$为$5$和$8$的最小公倍数，即为$40$，故$z=20$
+</div>
 
 ### 和差倍比
 
@@ -112,6 +125,8 @@ $
 
 $A.6 ~~ B.8 ~~ C.12 ~~ D.16$
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 设最小的人年龄为$x$，其它两人分别为$(x+a)$、$(x+b)$，则有
 
 $72 = x + (x+a) + (x+b)$，即$(a+b) = 72 - 3x$
@@ -121,6 +136,7 @@ $72 = x + (x+a) + (x+b)$，即$(a+b) = 72 - 3x$
 故$3x$也一定为$12$的整数倍，即$x$为4的整数倍
 
 综上答案为$A$
+</div>
 
 ## 数列规律
 
@@ -184,6 +200,8 @@ $
 
 **例**：$3$年前A是B的年龄的$17$倍，$3$年后，A是B的年龄的$5$倍，问B现在多少岁。
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 设3年前A、B年龄分别为$x$、$y$，则有：
 
 $
@@ -194,6 +212,7 @@ $
 $
 
 解得$x=34$、$y=2$
+</div>
 
 ## 行程问题
 
@@ -207,13 +226,18 @@ $
 
 **例**：一列火车长150米，速度19m/s。全车通过长800米的大桥，需要多少时间
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $t = \dfrac{150 + 800}{19} = 50s$
+</div>
 
 ### 流水问题
 
 **解题思路**：`(船速 + 水速) × 顺行时间 = (船速 - 水速) × 逆行时间`
 
 **例**：甲船从A地航行到下游需要$6$小时，由B地航行到A地需要$12$小时，乙船在静水中的速度是甲船的$3$倍，问乙从B航行到A需要多长时间。
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 设两地距离为$L$，水速为$s$，甲船速度为$v$，则有：
 
@@ -223,6 +247,7 @@ $
     \\  \dfrac{L}{3v-s} = \dfrac{24s}{9s-s} = 3
     \end{cases}
 $
+</div>
 
 ### 相遇问题
 
@@ -240,16 +265,50 @@ $
 
 $A$、$B$从相距$L$的两地相向而行，$C$随$A$一起出发在$A$与$B$之间来回奔跑，三者速度分别为$v_a$、$v_b$、$v_c$（$v_c > v_a$），问当$A$与$B$相遇时，$C$跑的路程$s_c$为多远？
 
-- $L = t × (v_a + v_b)$
-- $s_c = t × v_c$
+<div style="color:black; background-color: black; font-family: 宋体">
+
+$L = t × (v_a + v_b)$
+$s_c = t × v_c$
+
+</div>
 
 ## 利润问题
 
-**解题思路**：`利润 = 售价 - 成本 = 利润率 × 成本`
+**解题思路1**：`利润 = 售价 × 打折系数 - 成本 = 利润率 × 成本`
 
-**例**：进价800，标价1440，希望打折后利润率不低于35%，最低可以打几折？
+**解题思路2**：`售价 × 打折系数 = (1 + 利润率) × 成本`
+
+<!-- $g = p × d - c = r × c$ -->
+
+### 定价曲线
+
+**例1**：定价3000元时，能售出15万件，定价每增加200元，少出售1万件，若实际仅售出12万件，则销售策略为？
+
+<div style="color:black; background-color: black; font-family: 宋体">
+
+定价：$3000 + 200 × \dfrac{15w - 12w}{1w} = 3600$
+</div>
+
+### 打折出售
+
+**例1**：进价800，标价1440，希望打折后利润率不低于35%，最低可以打几折？
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 $\dfrac{1440×x-800}{800} ≥ 0.35 ~⇒~ x≥0.75$
+</div>
+
+**例2**：八折销售，利润为进价的$60\%$，打七折，利润为50，求原价？
+
+<div style="color:black; background-color: black; font-family: 宋体">
+
+$
+    \begin{cases}
+        0.8p - c = 0.6c
+    \\  0.7p - c = 50
+    \end{cases} ~⇒~ p=2c=250
+$
+</div>
 
 ## 工程问题
 
@@ -261,9 +320,12 @@ $\dfrac{1440×x-800}{800} ≥ 0.35 ~⇒~ x≥0.75$
 
 **例**：14台收割机收完麦子需要20天，收割了2天后，增加了6台，并改造使效率提升5%，问还需要几天收完？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 设初始每台每天工作效率为$e$
 
 $t = \dfrac{14e × 20 - 14e × 2}{20e × (1+5\%)} = 12$
+</div>
 
 ### 提前完成
 
@@ -274,9 +336,14 @@ $t = \dfrac{14e × 20 - 14e × 2}{20e × (1+5\%)} = 12$
 
 **例1**：计划植树300棵，实际效率为原效率1.2倍，结果提前20分钟完成，求原效率（棵/小时）？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $e = \dfrac{300}{\frac{1}{3} × \frac{1.2}{0.2}} = 150$
+</div>
 
 **例2**：种树，每天多种$\frac{1}{4}$提前$9$天完成，种了$4000$棵后每天多种$\frac{1}{3}$提前$5$天完成，共有多少树？
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 $
     \begin{cases}
@@ -284,6 +351,7 @@ $
     \\  (q-4000) = 5 × \frac{1 + 1/3}{1/3} × e
     \end{cases} ~⇒~ e=160, q=7200
 $
+</div>
 
 ### 合作工程
 
@@ -295,6 +363,8 @@ $
 
 **例1**：修2个隧道（900米、1250米），A、B、C队效率分别为24、30、32米/天，A队修1隧道，C队修2隧道，B队先修1后修2，两地同时完工，B修了几天1隧道？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $900 + 1250 = (24 + 30 + 32)t ~⇒~ t=25$
 
 或
@@ -305,20 +375,29 @@ $
     \\  1250 = 32t + 30(t-t_0)
     \end{cases} ~⇒~ t=25,t_0=10
 $
+</div>
 
 **例2**：3名绣工8天可完成，完成50%时一人离开，完成75%时又一人离开，最后实际用了几天。
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 $q = 3e × 8 = 24e$
 
 $\dfrac{\frac{1}{2}×24e}{3e} + \dfrac{\frac{1}{4}×24e}{2e} + \dfrac{\frac{1}{4}×24e}{e} = 13$
+</div>
 
 **例3**：四人合作效率比为$3:5:4:6$，前2个合作比后2个合作多9天，问4人合作共需要多少天？
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 $q = \dfrac{9}{\frac{1}{8}-\frac{1}{10}} = 360e$
 
 $\dfrac{360e}{18e} = 20$
+</div>
 
 **例4**：甲单独16小时，乙单独12小时，甲乙交替每次1小时，问需要多久？
+
+<div style="color:black; background-color: black; font-family: 宋体">
 
 由完成时间比得甲乙效率比为$3:4$（时间的反比）
 
@@ -331,6 +410,7 @@ $\dfrac{6e}{3e} = 1...3e$
 $\dfrac{3e}{4e} = 0.75$
 
 $t = 6 × 2 + 1 + 0.75 = 13.75$
+</div>
 
 ### 放水问题
 
@@ -340,7 +420,10 @@ $t = 6 × 2 + 1 + 0.75 = 13.75$
 
 **例**：A口入水，灌满需要2h；B口出水，满池放空需要1.5h；现有1/3水，同时打开AB口，排空需要多久？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $t = \dfrac{1}{3} \cdot \dfrac{1.5 × 2}{2 - 1.5} = 2$
+</div>
 
 ## 概率问题
 
@@ -460,6 +543,8 @@ $C_5^3 (\dfrac{2}{3})^3 (\dfrac{1}{3})^2 = \dfrac{80}{243}$
 
 **例**：1份甲和2份乙混合后浓度为22%，3份乙和4份丙合并后为35%，1份甲和1份丙合并后为43%，问甲乙丙5：4：1合并后的浓度？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 设每份溶液甲乙丙的溶质量分布为$x$、$y$、$z$
 
 $
@@ -471,6 +556,7 @@ $
 $
 
 $\dfrac{5x+4y+z}{10} = 29\%$
+</div>
 
 ## 容斥问题
 
@@ -500,12 +586,16 @@ $\dfrac{5x+4y+z}{10} = 29\%$
 
 **例**：使用太阳能热水器36人，选乘公共交通工具上下班21人，自备购物袋47人。三个均为肯定的有4人，仅有2个肯定的有46人，3个均否定的有15人，问总调查人数？
 
-- `(A + B + C) = 36 + 21 + 47`
-- `(AnB + AnC + BnC) - 3 × AnBnC = 46`
-  - `(AnB + AnC + BnC) = 46 + 3 × AnBnC`
-- `AnBnC = 4`
-- `不在ABC的剩余部分 = 15`
-- `全部情况 = (36 + 21 + 47) - (46 + 3 × 4) + (4) + (15) = 65`
+<div style="color:black; background-color: black; font-family: 宋体">
+
+$AnBnC = 4$
+
+$(AnB + AnC + BnC) - 3 × AnBnC = 46 ~⇒~ (AnB + AnC + BnC) = 58$
+
+$(A + B + C) = 36 + 21 + 47 = 104$
+
+$全部情况 = 104 - 58 + 4 + 15 = 65$
+</div>
 
 ## 抽屉问题
 
@@ -513,7 +603,10 @@ $\dfrac{5x+4y+z}{10} = 29\%$
 
 **例**：5个抽屉和若干苹果，至少保证有一个抽屉有4个苹果，则是少有多少个苹果？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $(4-1) × 5 + 1 = 16$
+</div>
 
 ## 鸡兔同笼
 
@@ -525,6 +618,8 @@ $(4-1) × 5 + 1 = 16$
 
 **例**：草地可供10牛吃20天，15牛吃10天，问可供25牛吃几天？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 设每牛每天吃$m$，初草量为$q$，每天新增草为$n$，可供25牛吃$x$天：
 
 $
@@ -534,6 +629,7 @@ $
     \\  q = (25m - n) x
     \end{cases} ~⇒~ n=5m, q=100m, x=5
 $
+</div>
 
 ## 方阵问题
 
@@ -561,7 +657,10 @@ $
 
 **例1**：时针分钟重合时出发，时针转30°后返回，此时分钟转过的角度为？
 
+<div style="color:black; background-color: black; font-family: 宋体">
+
 $\dfrac{x}{30} = \dfrac{6}{0.5} ~⇒~ x=360$
+</div>
 
 ## 最值问题
 
